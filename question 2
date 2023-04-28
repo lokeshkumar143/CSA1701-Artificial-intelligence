@@ -1,0 +1,13 @@
+n1 = [[12, 13],
+      [23,43]]
+n2 = [[43,23],
+      [12,34]]
+result = [[0,0],
+          [0,0]]
+for i in range(len(n1)):
+    for j in range(len(n1[0])):
+        result[i][j] = n1[i][j] + n2[i][j]
+
+
+for r in result:
+    print(r)
